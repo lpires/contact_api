@@ -10,5 +10,8 @@ end
 
 gem 'rabl'
 
+gem 'omniauth', '1.1.0'
+gem 'omniauth-google-oauth2', :git => 'https://github.com/zquestz/omniauth-google-oauth2.git'
+
 
 

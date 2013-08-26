@@ -6,7 +6,12 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+# Pagination
 LIMIT_PAGINATION, OFF_SET_PAGINATION = 30, 0
+
+# Google keys
+GOOGLE_CLIENT_ID = '<client id>'
+GOOGLE_CLIENT_SECRET = '<client secret>'
 
 module TestApp
   class Application < Rails::Application
