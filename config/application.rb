@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+LIMIT_PAGINATION, OFF_SET_PAGINATION = 30, 0
+
 module TestApp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
