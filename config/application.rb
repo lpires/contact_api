@@ -10,9 +10,9 @@ Bundler.require(:default, Rails.env)
 LIMIT_PAGINATION, OFF_SET_PAGINATION = 30, 0
 
 # Google keys
-EMAIL = '<email>'
-GOOGLE_CLIENT_ID = '<client id>'
-GOOGLE_CLIENT_SECRET = '<client secret>'
+EMAIL = 'leila.pires@gmail.com'
+GOOGLE_CLIENT_ID = "713015023910-nkkgrt0u3ubq7sgk8pn9fi8iimbsiveg.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET = "6orxaZjHfWXfwOoBiSmzO2eY"
 
 module TestApp
   class Application < Rails::Application

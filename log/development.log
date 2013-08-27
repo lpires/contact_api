@@ -1,0 +1,1293 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:48:49 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound (The action 'index' could not be found for ApplicationController):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:177:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1192182193508298786__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:53:43 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (uninitialized constant ApplicationController):
+  app/controllers/email_contacts_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:54:44 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:54:44 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:54:48 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:54:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:54:50 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:54:50 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 00:54:55 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=42f45522be8400af6949b21b4d55d299d6994f7bf19ae7ca&code=4/xapIPWuSvMtWaxEUWW6jWnLlknaC.wnh61nfdXPgfOl05ti8ZT3aZEx56gQI" for 127.0.0.1 at 2013-08-27 00:54:58 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:55:16 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:55:16 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 00:55:17 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=c04015f2ef53151d595adaf4911615f6ca73f18273c78a95&code=4/AhJWWoWq6Gvg1HBXmJVKZqlzbotW.QtJCi5ZvchgTOl05ti8ZT3a7tB56gQI" for 127.0.0.1 at 2013-08-27 00:55:19 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:57:05 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:57:06 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 00:57:09 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=5c39ccde06ff6be2a4748b373a0d40d88ba5bcfdf131f21d&code=4/D5wxgnhf-QIN25Z6RwwDH2ZEa54h.AmOdBjtbmDYfOl05ti8ZT3ZdHiJ6gQI" for 127.0.0.1 at 2013-08-27 00:57:11 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 00:58:53 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 00:58:53 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 00:58:57 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=853a8d3356e7988761e9ee30b8f2473e5ff8932637ff35ea&code=4/J4dDbRxG35dPOKHe7bO3tocV6g51.cqFTSa9Hxs8WOl05ti8ZT3bjYSV6gQI" for 127.0.0.1 at 2013-08-27 00:58:58 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:00:33 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=d4d30bfcaa146f962d3487bf3aa13feadef5f953d9450513&code=4/Uz371oqKV_PSTlZXnslAih0R-LgP.8oRje-A879QeOl05ti8ZT3bnUCh6gQI" for 127.0.0.1 at 2013-08-27 01:00:34 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:01:05 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:01:05 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:01:07 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=f1d04bc980b00f33bb8688f3ca5efa08a1c2a6176e410fd7&code=4/Ydq5C12ZMlM0LCCMdbweZHB3RIGV.gpiIG1EBYgEWOl05ti8ZT3YjZCl6gQI" for 127.0.0.1 at 2013-08-27 01:01:09 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:03:52 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:03:52 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:03:55 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=40eb880a42620d8bf59b4321f93db1b4d0726730b5c6f54e&code=4/gh3GPIojU9Oq64Samh6wdY3eHZ9Q.sqMNT96IJLsVOl05ti8ZT3YZfS56gQI" for 127.0.0.1 at 2013-08-27 01:03:56 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:04:48 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:04:48 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:04:52 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=fba9212e685ca1fc7a5eb39c7beb65e276aebeccfe68b8bc&code=4/aNdlLur86u-YRsnAH8zjkwVtXpB-.whoKcPTIXS8ZOl05ti8ZT3ajJTF6gQI" for 127.0.0.1 at 2013-08-27 01:05:23 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__483351480937852984__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:09:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:09:53 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:09:56 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=97708c10183c50f0938b6e738cb733a3f6d2edbdd8df5b91&code=4/_kY4xoyNeMoSo3N4Epsa5dPYOrwk.AkOotvnH3u8aOl05ti8ZT3ZLfzl6gQI" for 127.0.0.1 at 2013-08-27 01:09:57 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3601490444358324157__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:10:22 +0100
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:10:22 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:10:33 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=b26dd0c42ced8998d142d0b8b571ea062315334bf946f781&code=4/zFIdnCfCLQyLOxvNDQz_U8H72ex_.QqLsK45FxVoeOl05ti8ZT3Y5ojp6gQI" for 127.0.0.1 at 2013-08-27 01:10:34 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3601490444358324157__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:11:49 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:11:49 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:11:52 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=789b72a67d52a7032d495524b64a05bf23dceeab53582637&code=4/hziRv5mNUG2zoJ81pELeMM5wSk-s.MpWHzXimDkEbOl05ti8ZT3bPCz16gQI" for 127.0.0.1 at 2013-08-27 01:11:53 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4170555392613498629__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 01:21:05 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EmailContactsController#index as HTML
+  Rendered email_contacts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-27 01:21:05 +0100
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 01:21:08 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=491889ef97e30390ca5f9c82c04caa9d665d7b171dc56af3&code=4/3Q2COACX9c_0XjzwK-kfBSH8TLIe.EoryxjdBn1oUOl05ti8ZT3a7Ck56gQI" for 127.0.0.1 at 2013-08-27 01:21:10 +0100
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `block in connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/timeout.rb:52:in `timeout'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:918:in `connect'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:862:in `do_start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:851:in `start'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/net/http.rb:1367:in `request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.8) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.8) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.8) lib/faraday/connection.rb:253:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:99:in `build_access_token'
+  /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/bundler/gems/omniauth-google-oauth2-7d85f4eba222/lib/omniauth/strategies/google_oauth2.rb:64:in `custom_build_access_token'
+  omniauth-oauth2 (1.1.1) lib/omniauth/strategies/oauth2.rb:74:in `callback_phase'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:219:in `callback_call'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:175:in `call!'
+  omniauth (1.1.0) lib/omniauth/strategy.rb:157:in `call'
+  omniauth (1.1.0) lib/omniauth/builder.rb:48:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2011913153750961768__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/leila.pires/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/leila.pires/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.9ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.8ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.6ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (2.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130826233740')[0m
