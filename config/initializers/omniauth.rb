@@ -4,7 +4,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
            GOOGLE_CLIENT_SECRET,
            {
                access_type: 'offline',
-               scope: 'https://www.google.com/m8/feeds',
+               scope: 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.google.com/m8/feeds',
                redirect_uri: 'http://localhost:3000/auth/google_oauth2/callback'
            }
 end
