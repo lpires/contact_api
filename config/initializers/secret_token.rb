@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-TestApp::Application.config.secret_key_base = 'ecfdb8317205edfb3ee64e5eeb27c4206ea05b8804a683c5092399fd55ad91c6f47d430ad9b02549d567c756c885a98b7417f5191829bfa7904334f0a6b2adac'
+TestApp::Application.config.secret_token = 'ecfdb8317205edfb3ee64e5eeb27c4206ea05b8804a683c5092399fd55ad91c6f47d430ad9b02549d567c756c885a98b7417f5191829bfa7904334f0a6b2adac'
