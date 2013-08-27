@@ -10,7 +10,7 @@ class EmailContactsController < ApplicationController
     #Use the token from the data to request a list of contacts
     token = @auth["credentials"]["token"]
 
-    @contact = JSON.parse(Contact.new(email,token).download)
+    @contact = ContactConnector.new(email,token).download
   end
 
 end

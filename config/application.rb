@@ -7,7 +7,7 @@ require 'rails/all'
 Bundler.require(:default, Rails.env)
 
 # Pagination
-LIMIT_PAGINATION, OFF_SET_PAGINATION = 30, 0
+LIMIT_PAGINATION, OFF_SET_PAGINATION = 30, 1
 
 # Google keys
 EMAIL = 'leila.pires@gmail.com'
