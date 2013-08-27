@@ -2337,3 +2337,437 @@ ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
   
 
 Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+  [1m[36mSCHEMA (4.8ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSQL (20.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (17.9ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.1ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130826233740')
+  [1m[36mSCHEMA (0.3ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSQL (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[36mSCHEMA (0.3ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.3ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.3ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSQL (10.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (14.6ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.1ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.5ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130826233740')
+  [1m[36mSCHEMA (0.3ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSQL (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[36mSCHEMA (0.4ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.3ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSCHEMA (0.3ms)[0m  SHOW TABLES 
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSQL (18.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (14.6ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130826233740')
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSQL (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSQL (14.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36mSQL (11.5ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.2ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130826233740')
+  [1m[36mSCHEMA (0.4ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSQL (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[36mSCHEMA (0.2ms)[0m  [1mSHOW TABLES [0m
+  [1m[35mSCHEMA (0.1ms)[0m  SHOW TABLES 
+  [1m[36mSQL (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateUsers (20130826233740)
+  [1m[35mSCHEMA (0.4ms)[0m  SHOW TABLES 
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSCHEMA (0.3ms)[0m  SHOW TABLES 
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 10:40:59 +0100
+  Processing by EmailContactsController#index as HTML
+Rendered email_contacts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:41:00 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 10:41:02 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=167b12d0bf808bc12dbfae99e92c9ee231f93a7ce59b414a&code=4/q_cVcc1rjRvNrNvQ4pEXq17fPihI.4uGFMT46-ygTOl05ti8ZT3Y_TU9-gQI" for 127.0.0.1 at 2013-08-27 10:41:02 +0100
+  Processing by EmailContactsController#show as HTML
+  Parameters: {"state"=>"167b12d0bf808bc12dbfae99e92c9ee231f93a7ce59b414a", "code"=>"4/q_cVcc1rjRvNrNvQ4pEXq17fPihI.4uGFMT46-ygTOl05ti8ZT3Y_TU9-gQI", "provider"=>"google_oauth2"}
+Rendered email_contacts/show.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 277ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:41:04 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+  Processing by EmailContactsController#index as HTML
+Rendered email_contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:41:44 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 10:41:47 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=e0f56d0dca8e21b3f065357ef612c87052a878a1bf0c77ff&code=4/uGxopY5HpMRX1X3P1Ck7UvFTwRAS.4lXqmk40aqsbOl05ti8ZT3bTslB-gQI" for 127.0.0.1 at 2013-08-27 10:41:48 +0100
+  Processing by EmailContactsController#show as HTML
+  Parameters: {"state"=>"e0f56d0dca8e21b3f065357ef612c87052a878a1bf0c77ff", "code"=>"4/uGxopY5HpMRX1X3P1Ck7UvFTwRAS.4lXqmk40aqsbOl05ti8ZT3bTslB-gQI", "provider"=>"google_oauth2"}
+Completed   in 485ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.sort):
+  app/controllers/email_contacts_controller.rb:14:in `show'
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (28.4ms)
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+  Processing by EmailContactsController#index as HTML
+Rendered email_contacts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:42:26 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2013-08-27 10:42:30 +0100
+
+
+Started GET "/auth/google_oauth2/callback?state=87550015f36e5518b3c5da2e9322abbdce2b9e7dfe9d21ee&code=4/DwnAsMHjUVP82TsQMBF_IIzmH9fk.MjD_Oeoe9PEROl05ti8ZT3bvzFJ-gQI" for 127.0.0.1 at 2013-08-27 10:42:57 +0100
+  Processing by EmailContactsController#show as HTML
+  Parameters: {"state"=>"87550015f36e5518b3c5da2e9322abbdce2b9e7dfe9d21ee", "code"=>"4/DwnAsMHjUVP82TsQMBF_IIzmH9fk.MjD_Oeoe9PEROl05ti8ZT3bvzFJ-gQI", "provider"=>"google_oauth2"}
+Rendered email_contacts/show.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 263ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:42:58 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+  Processing by EmailContactsController#index as HTML
+Rendered email_contacts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2013-08-27 10:45:05 +0100
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/leila.pires/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)

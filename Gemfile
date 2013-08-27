@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.0.3'
 gem 'rake', '0.8.7'
 
-gem 'sqlite3'
+gem 'mysql2', '~> 0.3.11'
+gem 'activerecord-mysql2-adapter'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
