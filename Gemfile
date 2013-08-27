@@ -10,6 +10,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'rabl'
 
 gem 'omniauth', '1.1.0'
