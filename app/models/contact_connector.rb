@@ -29,7 +29,7 @@ class ContactConnector < GoogleConnector
 
     begin
       response = http.get( url.request_uri, header )
-      return response.body
+      return JSON.parse(response.body)['feed']['entry']
     rescue => e
     end
   end

@@ -11,6 +11,7 @@ class EmailContactsController < ApplicationController
     token = @auth["credentials"]["token"]
 
     @contact = ContactConnector.new(email,token).download
+    @contact = @contact.sort {|a,b| a['gd$email'].last['address']<=>b['gd$email'].last['address']}
   end
 
 end
